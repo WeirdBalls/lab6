@@ -1,11 +1,7 @@
 pipeline {
 	agent any
 	stages {
-		stage('Checkout SCM') {
-			steps {
-				git 'https://github.com/WeirdBalls/Lab6.git'
-			}
-		}
+
 
 		stage('OWASP DependencyCheck') {
 			steps {
