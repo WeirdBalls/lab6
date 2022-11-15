@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('Checkout SCM') {
 			steps {
-				git clone 'https://github.com/WeirdBalls/Lab6.git'
+				git 'https://github.com/WeirdBalls/Lab6.git'
 			}
 		}
 
